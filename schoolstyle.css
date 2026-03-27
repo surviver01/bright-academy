@@ -1,0 +1,72 @@
+body{
+    background-color: antiquewhite;
+    margin-top: 10px;
+    padding: 5%;
+}
+
+h1{
+    text-align: center;
+}
+
+.learning{
+    text-align: center;
+}
+
+.about{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    color: white; 
+    list-style: none;
+    gap: 10px;
+}
+
+.info h3 {
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.mission{
+    padding: 30px;
+    /* margin: 0 20px;  */
+    background-color: red;
+    width: 100%; 
+    border-radius: 20px;
+}
+
+.class{
+    padding: 30px;
+    /* margin: 0 20px; */
+    background-color: blue;
+    width: 100%;  
+    border-radius: 20px;
+}
+
+.facilities{
+    padding: 30px;
+    /* margin: 0 20px;  */
+    background-color: green;
+    width: 100%; 
+    border-radius: 20px;
+}
+
+footer{
+    background-color: rgb(58, 129, 58);
+    text-align: center;
+    /* width: 50%; */
+    /* margin:10px 100px; */
+    /* justify-content: center; */
+} 
+
+aside{
+    background-color: whitesmoke;
+    padding: 30px;
+    /* margin: 0 10px; */
+    display: flex;
+    justify-content: space-between;
+}
